@@ -9,7 +9,7 @@ Colorled - Class control for a RGB LED
     
     setcolorled(int rcolor, int gcolor, int bcolor) = Sets color in R,G,B.
     
-    gradientcolor(delay) = runs a command for 1020 ticks to gradient change a color from RED - GREEN - BLUE - RED. Delay will set the speed of color change.
+
     
 Normalled - Class control for a Normal 5v LED
 
@@ -28,3 +28,5 @@ LEDArray = sets up an array of LEDs
 
 
 ColorLEDArray = sets up an array of color LEDs
+
+    gradientcolor(delay) = runs a command for 1020 ticks to gradient change a color from RED - GREEN - BLUE - RED. Delay will set the speed of color change.
