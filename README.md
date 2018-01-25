@@ -13,7 +13,7 @@ Colorled - Class control for a RGB LED
     
 Normalled - Class control for a Normal 5v LED
 
-    Normalled()
+    Normalled(int pin) = creates an LED with the pin number (Constructor)
     
     ledsingleblink() = blinks the led once.
     
@@ -24,9 +24,8 @@ Normalled - Class control for a Normal 5v LED
     dimbutton(int time) = turns led on or off depending on what the led's state is through dimming. //ANALOG PIN ONLY
     
 
-LEDArray = sets up an array of LEDs
+LEDArray = sets up an array of single color LEDs
+
+    LEDArray(array) = creates an array of LEDs (TAKES AN ARRAY TO RUN).
 
 
-ColorLEDArray = sets up an array of color LEDs
-
-    gradientcolor(delay) = runs a command for 1020 ticks to gradient change a color from RED - GREEN - BLUE - RED. Delay will set the speed of color change.
